@@ -52,7 +52,7 @@ public class Controles {
         String[] b=a.list();
         
         for(String s:b){
-            System.out.println("------------------------------------------------------------------");
+            System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             StringBuilder k=new StringBuilder(b[i]);
             k.delete(b[i].length()-4, b[i].length());
             System.out.println(AbrirTxt(string,k.toString()));

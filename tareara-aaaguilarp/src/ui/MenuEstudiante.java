@@ -6,6 +6,7 @@ class MenuEstudiante implements IMenu{
 
     @Override
     public void Opciones() {
+        System.out.println("________________________________________________________________________________________");
         System.out.println("1.Abrir");
         System.out.println("2.Agregar");
         System.out.println("3.Matricula");

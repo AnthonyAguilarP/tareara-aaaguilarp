@@ -9,6 +9,7 @@ public class AgregarEstudiante {
     private Scanner sc=new Scanner(System.in);
     public void genero(){
         while(9!=0){
+            System.out.println("________________________________________________________________________________________");
             System.out.print("Genero(Masculino o Femenino): ");
             a.genero(sc.next());
             if(!"Ingrese un genero valido\nMaculino\nFemenino".equals(a.getGenero()))break;
@@ -17,6 +18,7 @@ public class AgregarEstudiante {
     }
     public void edad(){
         while(9!=0){
+            System.out.println("________________________________________________________________________________________");
             System.out.println("Ingrese su fecha de nacimiento");
             System.out.print("dia: ");
             a.setDia(sc.next());
@@ -30,6 +32,7 @@ public class AgregarEstudiante {
     }
     public void FechaInscripcion(){
         while(9!=0){
+            System.out.println("________________________________________________________________________________________");
             System.out.println("Ingrese su fecha de inscripcion");
             System.out.print("dia: ");
             a.Dia(sc.next());
@@ -42,6 +45,7 @@ public class AgregarEstudiante {
         }
     }
     public void Agregar(){
+        System.out.println("________________________________________________________________________________________");
         System.out.print("primer nombre: ");
         a.setpNombre(sc.next());
         System.out.print("segundo nombre: ");

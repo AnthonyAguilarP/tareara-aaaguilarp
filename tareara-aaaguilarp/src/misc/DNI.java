@@ -17,6 +17,7 @@ public class DNI {
     }
     public static String DNIgrupo(){
         Random a=new Random();
-        return Controles.ContieneCantidad("Grupos")+(char)(a.nextInt(26)+'A')+"U";
+        char v=(char)(a.nextInt(26)+'A');
+        return Controles.ContieneCantidad("Grupos")+v+"U";
     }
 }

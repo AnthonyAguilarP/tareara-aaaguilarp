@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class RegistroAcademico implements IMenu{
     @Override
     public void Opciones() {
+        System.out.println("________________________________________________________________________________________");
         System.out.println("1.Asignaturas");
         System.out.println("2.Grupos");
         System.out.println("3.Profesores");
