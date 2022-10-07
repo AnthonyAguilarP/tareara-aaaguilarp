@@ -50,7 +50,7 @@ public class AgregarEstudiante {
         a.setpNombre(sc.next());
         System.out.print("segundo nombre: ");
         a.setsNombre(sc.next());
-        System.out.print("primer nombre: ");
+        System.out.print("primer apellido: ");
         a.setpApellido(sc.next());
         System.out.print("segundo apellido: ");
         a.setsApellido(sc.next());

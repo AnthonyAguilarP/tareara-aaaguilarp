@@ -13,10 +13,11 @@ public class Profesor extends Persona implements IShow{
     public String getAño(){
         try{
         int año=Integer.parseInt(Año);
+        if(año<0)return "El año que ingreso es inválido";
+        else return "Años de experiencia= "+Año; 
         }catch(Exception e){
             return "El año que ingreso es inválido";
         }
-        return "Años de experiencia= "+Año;
     }
     @Override
     public String Show() {

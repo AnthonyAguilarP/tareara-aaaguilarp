@@ -46,6 +46,10 @@ public class AgregarProfesor {
         a.profesion(sc.next());
         System.out.print("Años de experiencia: ");
         a.Año(sc.next());
+        while(9!=0){
+        if(!"El año que ingreso es inválido".equals(a.getAño()))break;
+        else System.out.println("Ingrese un año valido");
+        }
         Almacen.Crear(a.getDNI(), a.Show(), "Profesores");
     }
 }
