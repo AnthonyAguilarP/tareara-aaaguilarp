@@ -45,8 +45,8 @@ public class AgregarProfesor {
         System.out.print("Profesión: ");
         a.profesion(sc.next());
         System.out.print("Años de experiencia: ");
-        a.Año(sc.next());
         while(9!=0){
+        a.Año(sc.next());
         if(!"El año que ingreso es inválido".equals(a.getAño()))break;
         else System.out.println("Ingrese un año valido");
         }
