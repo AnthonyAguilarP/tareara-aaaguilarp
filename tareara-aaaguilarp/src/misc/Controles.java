@@ -65,6 +65,7 @@ public class Controles {
         int i=0;
         for(String s:b){
             c=c+b.get(i)+"\n";
+            i++;
         }
         return a+c+a;
     }
